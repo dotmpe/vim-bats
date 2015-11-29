@@ -1,5 +1,6 @@
 
-source $VIMRUNTIME/syntax/sh.vim
+"source $VIMRUNTIME/syntax/sh.vim
+source $HOME/.vim/bundle/vim-bash/syntax/sh.vim
 
 syn match batsTest              "\v\@test"
 syn keyword batsKeyword         run containedin=shExpr contained
